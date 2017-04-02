@@ -19,16 +19,16 @@ def show_post(post_id):
     # show the post with the given id, the id is an integer
     return 'Post %d' % post_id
 
-@app.route('/projects/')
-def projects():
-    return 'The project page'
+@app.route('/url/')
+def url():
+    return url_for('user', username='abbc')
 
 @app.route('/about')
 def about():
     return 'The about page'
 
 
-    
+
 if __name__ == '__main__':
     app.run() #port=8888,host='0.0.0.0'
 
