@@ -21,7 +21,7 @@ def show_post(post_id):
 
 @app.route('/urlfor')
 def url():
-    return url_for('user', username='abbc')
+    return url_for('show_user_profile', username='abbc')
 
 @app.route('/about')
 def about():
