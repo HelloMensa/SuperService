@@ -19,7 +19,7 @@ def show_post(post_id):
     # show the post with the given id, the id is an integer
     return 'Post %d' % post_id
 
-@app.route('/url/')
+@app.route('/url')
 def url():
     return url_for('user', username='abbc')
 
