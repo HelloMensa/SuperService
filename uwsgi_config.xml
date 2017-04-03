@@ -1,6 +1,6 @@
 <uwsgi>
     <plugin>python</plugin>
-    <socket>127.0.0.1:9001</socket>
+    <socket>0.0.0.0:5000</socket>
     <pythonpath>/var/www/example/app/</pythonpath>
     <app mountpoint="/">
         <script>wsgi_configuration_module</script>

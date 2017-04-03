@@ -1,8 +1,6 @@
 #!/usr/bin/python
 import os
 import sys
-sys.path.append('/var/www/example/app')
-os.environ['PYTHON_EGG_CACHE'] = '/var/www/example/.python-egg'
 def application(environ, start_response):
     status = '200 OK'
     output = 'Hello World!'
