@@ -9,7 +9,7 @@ urls = ("/.*", "index")
 
 class index:
     def GET(self):
-    return render.base(view.listing())
+        return render.base(view.listing())
 
 
 if __name__ == "__main__":
@@ -18,3 +18,4 @@ if __name__ == "__main__":
     app.internalerror = web.debugerror
     app.run()
 
+y
