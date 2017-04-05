@@ -3,7 +3,7 @@ import view, config
 from view import render
 
 urls = (
-    '/', 'index'
+    "/", "index"
 )
 
 class index:
