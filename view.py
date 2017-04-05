@@ -10,5 +10,5 @@ render = web.template.render('templates/', cache=config.cache,
 render._keywords['globals']['render'] = render
 
 def listing(**k):
-    l = db.listing(**k)
+    l = ["Hello", "World"]
     return render.listing(l)
