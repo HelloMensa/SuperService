@@ -21,3 +21,6 @@ nginx及spawn-fcgi配置当前进程运行用户 【降权】
 
 2. python sqlite 访问类库
 3. python 文件系统访问API
+
+4. vps上自动获取git最新代码部署，类持续集成
+
